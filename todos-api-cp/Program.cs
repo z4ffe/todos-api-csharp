@@ -1,4 +1,6 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using todos_api_cp.Data;
+
+var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
